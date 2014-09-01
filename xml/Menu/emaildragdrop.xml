@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/physicianhealthbc/emaildragdrop/ajax</path>
+    <page_callback>CRM_Emaildragdrop_Page_Ajax</page_callback>
+    <title>Ajax</title>
+    <access_arguments>access CiviCRM</access_arguments>
+   </item>
+   <item>
+    <path>civicrm/admin/setting/emaildragdrop</path>
+    <page_callback>CRM_Admin_Form_Setting_EmailDragDrop</page_callback>
+    <title>Email Drag and Drop</title>
+    <adminGroup>CiviMail</adminGroup>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>

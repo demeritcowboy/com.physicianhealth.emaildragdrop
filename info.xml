@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="com.physicianhealth.emaildragdrop" type="module">
+  <file>emaildragdrop</file>
+  <name>EmailDragDrop</name>
+  <description>File an email using Drag and Drop from an email program like Outlook or Thunderbird or AppleMail, etc.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Physician Health Program of BC</author>
+    <email>info@physicianhealth.com</email>
+  </maintainer>
+  <releaseDate>2014-02-03</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>There is one extra config step before the module will work where you need to set up the location of the drop target. Note: This module will not work with webmail, at least not the way you would expect. It needs to be an actual email program.</comments>
+  <civix>
+    <namespace>CRM/Emaildragdrop</namespace>
+  </civix>
+</extension>
