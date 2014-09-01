@@ -13,13 +13,15 @@
 ```
 <div class="emaildragdrop">Drag emails here</div>
 ```
-  1. You can also add a class "no-questions-asked" to the div. This tells it not to pop up a box asking if you want to change the email subject before filing. Theoretically you could also have two divs in the block, one with and one without.
+5. You can also add a class "no-questions-asked" to the div. This tells it not to pop up a box asking if you want to change the email subject before filing. Theoretically you could also have two divs in the block, one with and one without.
 ```
 <div class="emaildragdrop no-questions-asked">Drag emails here (no questions)</div>
 ```
-  2. The file in the css folder has some default styling for this div. Override as desired.
+6. The file in the css folder has some default styling for this div. Override as desired.
 
 # Usage Notes and Limitations
 * It does not work with WebMail (i.e. reading mail through your browser). It must be dragged from a desktop email program (e.g. Outlook, Thunderbird).
 * On a Mac, it does not seem to work directly from email to browser (tried with all combinations of safari, firefox, applemail, and thunderbird). A workaround is to first drag the email to the desktop, then drag from the desktop into the browser div area, then delete the file from your desktop. If anybody knows how to fix this please let me know - the technical problem seems to be that the JS dataTransfer object which should contain the email doesn't.
-* This has only been tested with CiviCRM 4.2.1 and Drupal (actually only Drupal 6, but that shouldn't matter). Also not tested when using clean urls.
+* This has only been tested with CiviCRM 4.2.1 and Drupal (actually only Drupal 6, but that shouldn't matter).
+* Also not tested when using clean urls.
+* For anyone using 4.2 with other hooks, note that you may need to backport CRM-11212 since enabling extensions might cause those customizations to stop working.
