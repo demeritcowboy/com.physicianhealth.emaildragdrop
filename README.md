@@ -1,6 +1,6 @@
 # To install:
 1. Set up your extensions directory. See [http://wiki.civicrm.org/confluence/display/CRMDOC/Extensions](http://wiki.civicrm.org/confluence/display/CRMDOC/Extensions).
-2. Download this project (either using the github.com download link or git clone) and extract it into your extensions directory.
+2. Download this project (either using the github.com download link or git clone) and extract it into your extensions directory. The tree should have a folder called com.physicianhealth.emaildragdrop directly under the extensions directory, so if you see this README directly under your extensions directory it's one level too high.
 3. Follow the instructions at the above page including the note where it says Manual Installation of Native Extensions.
 
 # To configure:
@@ -13,11 +13,11 @@
 ```
 <div class="emaildragdrop">Drag emails here</div>
 ```
-You can also add a class "no-questions-asked" to the div. This tells it not to pop up a box asking if you want to change the email subject before filing. Theoretically you could also have two divs in the block, one with and one without.
+  1. You can also add a class "no-questions-asked" to the div. This tells it not to pop up a box asking if you want to change the email subject before filing. Theoretically you could also have two divs in the block, one with and one without.
 ```
 <div class="emaildragdrop no-questions-asked">Drag emails here (no questions)</div>
 ```
-The file in the css folder has some default styling for this div. Override as desired.
+  2. The file in the css folder has some default styling for this div. Override as desired.
 
 # Usage Notes and Limitations
 * It does not work with WebMail (i.e. reading mail through your browser). It must be dragged from a desktop email program (e.g. Outlook, Thunderbird).
