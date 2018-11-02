@@ -1,3 +1,5 @@
+# NO LONGER SUPPORTED SINCE OUTLOOK 2013+ NO LONGER SUPPORT THE DRAG AND DROP FUNCTIONALITY NEEDED
+
 # To install:
 1. Set up your extensions directory. See [http://wiki.civicrm.org/confluence/display/CRMDOC/Extensions](http://wiki.civicrm.org/confluence/display/CRMDOC/Extensions).
 2. Download this project (either using the github.com download link or git clone) and extract it into your extensions directory. The tree should have a folder called com.physicianhealth.emaildragdrop directly under the extensions directory, so if you see this README directly under your extensions directory it's one level too high.
